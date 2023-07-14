@@ -276,3 +276,45 @@ updatedAt: 2023-07-11T15:49:46.476Z,
 bio: 'My life, my rules. My style, my attitude.',
 profileImage: '1689090586317.png'
 }
+
+---
+
+## FRONTEND
+
+1 - Criar projeto padrão react na pasta frontend
+
+2 - Instalar os pacotes react-icons react-router-dom @reduxjs/toolkit react-redux
+
+3 - Instalar font Roboto
+
+4 - Fazer a limpeza dos arquivos
+
+5 - Criar pastas: components, pages
+
+6 - Na pasta pages, criar as pastas Auth e Home
+6.1 - Em Home, criar arquivos Home.js e Home.css
+6.2 - Em Auth, criar arquivos Login.js, Register.js e Auth.css
+
+7 - Configurando o react-router-dom em app.js
+7.1 - Importar BrowserRouter, Routes, Route, Navigate
+7.2 - Fazer a estruturação padrão de rotas
+7.3 - Criar Rotas para Home, Login e Register
+
+8 - Configurando navbar e footer
+8.1 - Criar os arquivos de navbar e footer em components
+8.2 - Importar em App.js e posicionar entre o BrowserRoutes
+8.3 - Configurar o footer
+8.4 - Configurar o navbar
+8.4.1 - Importar NavLink, Link do react-router-dom
+8.4.2 - Importar os ícones BsSearch, BsHouseDoorFill, BsFilePersonFill, BsFillCameraFill do react-icons/bs
+8.5 - Configurar o CSS
+
+9 - Página de registro
+9.1 - Importar o Link e os hooks useState e useEffect
+9.2 - Declarar os states para armazenar os dados
+9.3 - Criar função handleSubmit
+9.3.1 - preventDefault
+9.3.2 - Criar um objeto com os dados que serão armazenados do input
+9.4 - Criar form passando a handleSubmit
+9.5 - Nos input, inserir as funções set no onChange
+9.6 - Passar os respectivos values ou ""
